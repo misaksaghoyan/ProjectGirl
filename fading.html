@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="mycss.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <title>w3fadingchutik</title>
+
+</head>
+<style>
+  .w3-theme {
+    color: #fff !important;
+    background-color: #3f51b5 !important
+  }
+
+  h1 {
+    font-family: "Tangerine", serif;
+  }
+</style>
+
+<body>
+  <div class=" w3-gray w3-row w3-padding w3-theme-d2 w3-xlarge w3-center">
+    <a href="index.html"> <i class="fa fa-home w3-teal"></i></a>
+
+
+    <h1 class="w3-text-pink">Foto Model</h1>
+    <div class="container">
+      <img class="w3-animate-fading" src="image/fotomodel.jpg" alt="ch" style>
+      <div id="home" class="w3-content">
+
+        <!-- Slides -->
+        <img class="slides" src="image/girl1.jpg" width="100%" style="display: none;">
+        <img class="slides" src="image/girl2.jpg" width="100%" style="display: none;">
+        <img class="slides" src="image/girl3.jpg" width="100%" style="display: none;">
+        <img class="slides" src="image/girl4.jpeg" width="100%" style="display: none;">
+        <img class="slides" src="image/girl5.jpeg" width="100%" style="display: none;">
+        <img class="slides" src="image/girl6.jpg" width="100%" style="display: none;">
+        <img class="slides" src="image/girl7.jpg" width="100%" style="display: none;">
+        <!-- <img class="slides" src="image/chutik.gif" width="100%" style="display: block;"> -->
+        <script>
+          w3.slideshow(".slides", 3000);
+        </script>
+
+        <!-- End Content -->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

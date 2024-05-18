@@ -1,0 +1,48 @@
+.container {
+  margin: 50px;
+  margin-top: 50px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(96, 94, 97);
+}
+.main {
+  text-align: center;
+}
+p {
+  font-size: 24px;
+  background-color: aquamarine;
+  margin: 30px;
+}
+.container>img {
+  max-width: 300px;
+}
+/*textshdow*/
+h1 {
+  text-shadow: 2px 2px #ff0000;
+}
+/*textanimation*/
+h1 {
+  -webkit-animation: mymove 5s infinite;
+          animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+  50% {text-shadow: 10px 20px  30px blue;}
+}
+@keyframes mymove {
+  50% {text-shadow: 10px 20px  30px blue;}
+}
+#ex1 {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 25px;
+
+}
+pre {
+  background-color: black;
+}
+pre.a {
+  width: 300px;
+  height: 350px;
+  transform: skewY(20deg);
+}

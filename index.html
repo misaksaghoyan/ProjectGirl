@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Model</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="img/x-icon" href="image/KM.png">
+<style>
+  .w3-Tangerine {
+    font-family: "Tangerine", serif;
+  }
+  /* spiral 360dg */
+  
+
+</style>
+<button onclick="window.print()">print window</button>
+
+<body style="background-color:pink;">
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+    <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <a href="olgaEgenkar.html" class="w3-bar-item w3-button w3-hover-red">ԲՆՈՒԹՅՈՒՆ</a>
+    <a href="tutak.html" class="w3-bar-item w3-button w3-hover-purple">ԿԵՆԴԱՆԻՆԵՐ</a>
+    <a href="muzika.html" class="w3-bar-item w3-button">ԵՐԱԺՇՏՈՒԹՅՈՒՆ</a>
+  </div><br>
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+    <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <a href="manikyur.html" class="w3-bar-item w3-button w3-hover-yellow">ՄԱՆԻԿՅՈՒՐ</a>
+    <a href="car.html" class="w3-bar-item w3-button">CAR</a>
+    <a href="olgaEgenkar2.html" class="w3-bar-item w3-button">Ճանապարհորդություն</a>
+    <a href="fading.html" class="w3-bar-item w3-button">Slide Model</a>
+    <a href="mymodel.html" class="w3-bar-item w3-button">My Model</a>
+  </div>
+  <div class="w3-teal">
+    <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+    <div class="w3-container">
+      <i class="fa fa-volume-up"></i>
+      <i class="fa fa-wifi"></i>
+      <i class="fa fa-battery-2"></i>
+      12:30
+    </div>
+
+    <h1>ԻՄ էջն</h1>
+    <a href="http://google.com" class="w3-text-red">Google</a> <br />
+    <a href="http://YouTube.com" class="w3-text-yellow">YouTube</a>!<br />
+
+
+
+
+  </div>
+
+  <div class="w3-container">
+
+
+  </div>
+
+  <script>
+    function openLeftMenu() {
+      document.getElementById("leftMenu").style.display = "block";
+    }
+
+    function closeLeftMenu() {
+      document.getElementById("leftMenu").style.display = "none";
+    }
+
+    function openRightMenu() {
+      document.getElementById("rightMenu").style.display = "block";
+    }
+
+    function closeRightMenu() {
+      document.getElementById("rightMenu").style.display = "none";
+    }
+  </script>
+  <!--navigacia-->
+
+
+  <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:30%">
+    <div class="w3-container w3-dark-grey">
+      <h4>Menu</h4>
+    </div>
+    <div class="w3-card" style="width:200px">
+      <img class="w3-animate-zoom" src="image/girlfm1.jpg" alt="Snow" style="width:50%">
+      <div class="w3-container w3-center">
+        <p class="w3-xlarg">MODEL</p>
+        <p> OLGA</p>
+      </div>
+    </div>
+
+    <!--<img class="w3-animate-zoom" src="olga.jpg" alt="Snow" style="width:30%">-->
+    <a href="#" class="w3-bar-item w3-button w3-red">Home</a>
+    <a href="#" class="w3-bar-item w3-button">Projects <span class="w3-tag w3-red w3-right w3-margin-right">8</span></a>
+    <a href="#" class="w3-bar-item w3-button">About</a>
+    <a href="contactolga.html" class="w3-bar-item w3-button">Contact</a>
+    <!--12345-->
+    <div class="w3-container">
+      <div class="w3-bar w3-tiny w3-border w3-round">
+        <a href="#" class="w3-button">&laquo;</a>
+        <a href="youtube.com" class="w3-button w3-hover-purple">1</a>
+        <a href="google.com" class="w3-button w3-hover-red">2</a>
+        <a href="#" class="w3-button w3-hover-yellow">3</a>
+        <a href="#" class="w3-button w3-hover-blue">4</a>
+        <a href="#" class="w3-button w3-hover-black">5</a>
+        <a href="#" class="w3-button">&raquo;</a>
+      </div>
+    </div>
+
+
+
+    
+
+
+    <div class="w3-panel w3-blue-grey w3-display-container">
+      <span onclick="this.parentElement.style.display='none'"
+        class="w3-button w3-blue-grey w3-display-topright">&times;</span>
+      <p>Lorem ipsum box...</p>
+    </div>
+
+  </div>
+
+  <div style="margin-left:50%">
+
+   <div class="w3-content w3-section" style="max-width:500px"></div> 
+    
+    
+      <img class="mySlides w3-animate-fading" src="image/manikyur.jpg" style="width:50%">
+      <img class="mySlides w3-animate-fading" src="image/manikyur2.jpg" style="width:50%">
+      <img class="mySlides w3-animate-fading" src="image/manikyur3.jpg" style="width:30%">
+      <img class="mySlides w3-animate-fading" src="image/img_rr_04.jpg" style="width:50%">
+      
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 9000);
+      }
+    </script><br>
+    <!-- spiral 360dg --react-->
+   
+    
+    
+   
+
+    </div>
+  
+   
+
+   
+
+
+
+</body>
+
+</html>

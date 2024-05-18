@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <title>tutakner</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body style="background-color: powderblue">
+  <div class="w3-container">
+    <div class="w3-padding w3-larg w3-center w3-light-grey">
+      <h1 class="w3-text-yellow">Parrots Singing</h1>
+
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-blue fa fa-home w3-text-yellow">home</a>
+
+      <img class="w3-circle w3-animate-fading" src="image/tutak.jpg" alt="tutak" style="width: 15%" />
+      <a href="audio/Звезда - говорящий попугай Тимоша.mp4"
+        class="w3-bar-item w3-booton w3-hover-green w3-text-yellow">Speak Russian</a><br>
+      <a href="audio/parrots sings.mp4" class="w3-bar-item w3-booton w3-hover-green w3-text-yellow">Russian Sings</a>
+    </div>
+  </div><br>
+  <!-- img fading popugay -->
+
+  <div class="w3-container">
+    <img class="slides" src="image/tutak.jpg" alt="tutak" width="100%" style="display: none;">
+    <img class="slides" src="image/parrots1.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/parrots2.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/parrots3.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/parrots4.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat1.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat2.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat3.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat4.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat5.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat6.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat7.jpg" width="100%" style="display: none;">
+    <img class="slides" src="image/cat8.jpg" width="100%" style="display: none;">
+  </div>
+  <script>
+    w3.slideshow(".slides", 5000);
+  </script>
+
+</body>
+
+</html>

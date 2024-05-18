@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>olgacar</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<style>
+  body {
+    background-color: burlywood;
+  }
+</style>
+
+<body class="w3-container">
+  <div class="w3-padding w3-xlarge w3-text-teal">
+    <a href="index.html"> <i class="fa fa-home w3-hover-opacity"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-search"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-globe"></i></a>
+  </div>
+  <div class="w3-container">
+    <h1 class="w3-hover w3-center">MY Car</h1>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+
+
+      <img class="mySlides w3-animate-fading" src="image/img_rr_01.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="image/img_rr_02.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="image/img_rr_03.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="image/img_rr_04.jpg" style="width:100%">
+      <img src="image/img_la.jpg" alt="LA" style="width:100%">
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 5000);
+      }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
